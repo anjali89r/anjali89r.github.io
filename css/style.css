@@ -41,7 +41,8 @@ nav ul{
 }
 
 .circle-text {
-    width:50%;
+    /* width:50%; */
+    width:60%;
 }
 .circle-text:after {
     content: "";
@@ -72,12 +73,12 @@ circlecolor .circle-text:after{
     text-align:center;
     color:white;
 }
-@media (max-width:768px){
+@media (max-width:767px){
     .circle-text.resumetag, .circle-text.skillstag{
-        width: 40%;
+        width: 44%;
     }
     .circle-text{
-        width: 26%;
+        width: 30%;
     }
 }
 .panel{
