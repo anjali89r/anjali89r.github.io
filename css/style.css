@@ -72,6 +72,14 @@ circlecolor .circle-text:after{
     text-align:center;
     color:white;
 }
+@media (max-width:768px){
+    .circle-text.resumetag, .circle-text.skillstag{
+        width: 40%;
+    }
+    .circle-text{
+        width: 26%;
+    }
+}
 .panel{
     display: none;
 }
@@ -91,11 +99,11 @@ circlecolor .circle-text:after{
        margin-left: -9px;
     }
 } */
-@media (min-width:768px) and (max-width:992px){
+/* @media (min-width:768px) and (max-width:992px){
     .text-responsive{
         font-size: 1vw;
     }
-}
+} */
 .text-responsive{
     font-size: 17px;
 }
