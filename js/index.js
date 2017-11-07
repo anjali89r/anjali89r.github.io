@@ -15,8 +15,13 @@
 //   });
 // });
 
+
 $(function() {
+  $('.navbar a').click(function(){
+    $('.navbar-collapse').collapse('hide');
+  });
   $('.nav-resume a').on('click', function(){
+    // $('#navbarSupportedContent').hide();
     $('#section3').removeClass('proactive');
     $('#section4').removeClass('proactive');
     $('#section2').addClass('proactive');
