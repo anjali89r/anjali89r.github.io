@@ -26,6 +26,7 @@ nav ul{
   }
 .view {
     background: url("../drip.jpg")no-repeat center center fixed;
+    /* background-color: #E0E0E0; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -108,7 +109,16 @@ circlecolor .circle-text:after{
 .text-responsive{
     font-size: 17px;
 }
-
+@media (max-width: 416px){
+    .size-resp{
+        font-size: 13px;
+    }
+}
+@media (min-width: 417px){
+    .size-resp{
+        font-size: 17px;
+    }
+}
 @media (max-width:767px){
     .description{
         margin-bottom: 20px;
