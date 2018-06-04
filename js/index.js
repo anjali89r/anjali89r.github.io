@@ -38,7 +38,7 @@ $(function() {
      $('#section3').addClass('proactive');
      $('html, body').stop().animate({
        scrollTop: $( $(this).attr('href') ).offset().top
-     }, 2000);
+     }, 600);
      return false;
   });
 
@@ -82,7 +82,7 @@ $(function() {
    $('#section3').addClass('proactive');
    $('html, body').stop().animate({
      scrollTop: $( $(this).attr('href') ).offset().top
-   }, 2000);
+   }, 700);
    return false;
 })
 
