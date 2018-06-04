@@ -1,16 +1,4 @@
-/* YOUR CUSTOM STYLES */
 
-/* nav{
-    font-family: Lobster;
-    font-size: 25px;
-
-} */
-
-/* .pageOne{
-    background: url("../drop-of-water.jpg");
-    background-size: cover;
-    height: 800px;
-} */
 html,
 body,
 .view {
@@ -43,8 +31,8 @@ nav ul{
 }
 
 .circle-text {
-    /* width:50%; */
-    width:60%;
+    width:50%;
+
 }
 .circle-text:after {
     content: "";
@@ -75,14 +63,7 @@ circlecolor .circle-text:after{
     text-align:center;
     color:white;
 }
-@media (max-width:767px){
-    .circle-text.resumetag, .circle-text.skillstag{
-        width: 44%;
-    }
-    .circle-text{
-        width: 30%;
-    }
-}
+
 .panel{
     display: none;
 }
@@ -97,16 +78,9 @@ circlecolor .circle-text:after{
     list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
     list-style-position: inside;
 }
-/* @media (max-width:400px){
-    .vol-desc{
-       margin-left: -9px;
-    }
-} */
-/* @media (min-width:768px) and (max-width:992px){
-    .text-responsive{
-        font-size: 1vw;
-    }
-} */
+#section2 {
+    margin-bottom: 40px;
+}
 .text-responsive{
     font-size: 17px;
 }
@@ -120,8 +94,160 @@ circlecolor .circle-text:after{
         font-size: 17px;
     }
 }
-@media (max-width:767px){
-    .description{
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .circle-text {
+        width: 20%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .circle-text {
+        width: 45%;
+    }
+}
+@media (max-width: 991px){
+    .circle-text {
         margin-bottom: 20px;
     }
+}
+.cv-details {
+    font-family: 'Playfair Display';
+    font-size: 14px;
+}
+.circle-text p {
+    font-family: 'Marck Script', cursive;
+}
+/*udacity*/
+body {
+	font-family: 'Lato', sans-serif;
+}
+.descrip p {
+	font-size: 20px;
+	font-family: 'Marck Script', cursive;
+}
+img {
+	max-width: 100%
+}
+.heading {
+	padding: 5px;
+}
+
+.name {
+	font-size: 50px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.sub {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 21px;
+}
+
+hr {
+    border-bottom: 1px solid #7d97ad;
+	border-bottom-width: 2px;
+}
+.profile-pic {
+	padding: 15px;
+}
+#me {
+	text-align: center;
+}
+#me .welcome {
+	margin-bottom: 10px;
+}
+#me h2 {
+	text-align: center;
+	/* text-transform: uppercase; */
+	font-family: 'Marck Script', cursive;
+}
+.pic img {
+	border-radius: 50%;
+	border: 1px solid #7796AF;
+	padding: 2px
+}
+
+
+@media screen and (max-width:459px) {
+	.name {
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.about {
+		margin-top: 50px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.about {
+		text-align: right;
+	}
+	.pic img {
+		margin-top: -50px;
+	}
+}
+
+.footer-main {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+	padding: 45px;
+}
+.footer-main .footer-name, .footer-rights {
+	color: #8f9297;
+	font-size: 14px;
+	margin: 0;
+}
+@media (max-width: 600px) {
+	.footer-main {
+		padding: 35px;
+	}
+	.footer-main .footer-name {
+		font-size: 12px;
+	}
+}
+.footer-main .footer-icon {
+	margin-top: 15px;
+}
+.footer-main .footer-icon a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 2px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+	font-size: 19px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 34px;
+}
+.logo {
+    margin-top: 40px;
+    padding: 20px;
+}
+.logo a {
+    display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #7d97ad;
+	border-radius: 2px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+	font-size: 19px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 34px;
+}
+@media (max-width: 991px){
+    .logo {
+        display: none;
+    }
+
+
 }
