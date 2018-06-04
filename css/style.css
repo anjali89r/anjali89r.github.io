@@ -3,7 +3,8 @@ html,
 body,
 .view {
     height: 100%;
-    font-family: 'Slabo 27px', serif;
+    /* font-family: 'Slabo 27px', serif; */
+    font-family: 'Lato';
 }
 strong { font-weight: bold; }
 nav ul{
@@ -111,7 +112,7 @@ circlecolor .circle-text:after{
     }
 }
 .cv-details {
-    font-family: 'Playfair Display';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 .circle-text p {
