@@ -1,1 +1,3 @@
 
+ const nojekyllPath = resolve(this.distPath, '.nojekyll') 
+ writeFile(nojekyllPath, '') 
